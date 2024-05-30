@@ -3,20 +3,24 @@ package com.in28minutes.learnspringframework.game;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PacmanGame implements GamingConsole {
-    public void up() {
-        System.out.println("upward");
-    }
+public class PacmanGame implements GamingConsole{
 
-    public void down() {
-        System.out.println("downward");
-    }
+	
+	public void up() {
+		System.out.println("up");
+	}
 
-    public void left() {
-        System.out.println("backward");
-    }
-    
-    public void right() {
-        System.out.println("ahead");
-    }
+	public void down() {
+		System.out.println("down");
+	}
+	
+	public void left() {
+		System.out.println("left");
+	}
+
+	public void right() {
+		System.out.println("right");
+	}
+
+
 }

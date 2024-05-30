@@ -1,13 +1,13 @@
 package com.in28minutes.learnspringframework.examples.c1;
+import org.springframework.stereotype.Repository;
+//@Component
 
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Repository;
-//import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Component;
 
-
-//@Component
-@Primary
+@Component
 @Repository
+@Primary
 public class MongoDbDataService implements DataService {
 
 	@Override
